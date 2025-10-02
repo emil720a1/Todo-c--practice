@@ -1,0 +1,4 @@
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.AssemblyInfoInputs.cache
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.AssemblyInfo.cs
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.csproj.CoreCompileInputs.cache
