@@ -2,62 +2,33 @@ namespace To_do;
 
 public class Task
 {
-    private string Name { get; set; }
-    private string Description { get; set; }
-    private Category Category { get; set; }
-    private bool isCompleted { get; set; }
-    private int id { get; set; }
+    
+    public DateTime? DueDate { get; set; }
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public Category Category { get; set; }
+    
+    public Priority Priority { get; set; }
+    public bool IsCompleted { get; set; }
+    public int Id { get; set; }
+    
 
-    public Task(string Name, string Description)
+    public Task(string Name, string Description, Priority priority, DateTime? dueDate)
     {
         this.Name = Name;
         this.Description = Description;
-        isCompleted = false;
-    }
-
-    public int GetId()
-    {
-        return id;
-    }
-
-    public void SetId(int id)   
-    {
-        this.id = id;
-    }
-
-    public string GetName()
-    {
-        return Name;
-    }
-    
-    public string GetDescription()
-    {
-        return Description;
-    }
-
-    public void SetIsCompleted(bool isCompleted)
-    {
-        this.isCompleted = isCompleted;
-    }
-    
-    public bool GetIsCompleted()
-    {
-        return isCompleted;
-    }
-    
-    public void SetCategory(Category category)
-    {
-        Category = category;
-    }
-
-    public Category GetCategory()
-    {
-       return Category;
+        Priority = priority;
+        IsCompleted = false;
     }
 
     public void MarkTaskCompleted()
     {
-        isCompleted = true;
+        IsCompleted = true;
+    }
+
+    public override string ToString()
+    {
+       return $"ID: {Id} {Name} ({Category}), {Priority}, Due: {DueDate?.ToString("yyyy-MM-dd") ?? "No deadline"} - {(IsCompleted ? "Виконано" : DueDate < DateTime.Now ? "Просрочено" : "Не виконано")}";
     }
     
 }

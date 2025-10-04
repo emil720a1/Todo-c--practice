@@ -2,3 +2,14 @@
 /Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.AssemblyInfoInputs.cache
 /Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.AssemblyInfo.cs
 /Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.csproj.CoreCompileInputs.cache
+/Users/mcaleg2006/RiderProjects/To-do/To-do/bin/Debug/net9.0/To-do
+/Users/mcaleg2006/RiderProjects/To-do/To-do/bin/Debug/net9.0/To-do.deps.json
+/Users/mcaleg2006/RiderProjects/To-do/To-do/bin/Debug/net9.0/To-do.runtimeconfig.json
+/Users/mcaleg2006/RiderProjects/To-do/To-do/bin/Debug/net9.0/To-do.dll
+/Users/mcaleg2006/RiderProjects/To-do/To-do/bin/Debug/net9.0/To-do.pdb
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.sourcelink.json
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.dll
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/refint/To-do.dll
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.pdb
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/To-do.genruntimeconfig.cache
+/Users/mcaleg2006/RiderProjects/To-do/To-do/obj/Debug/net9.0/ref/To-do.dll
